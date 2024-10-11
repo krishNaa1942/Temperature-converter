@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPERATURE 🌡️ CONVERTER</title>
+    <link rel="stylesheet" href="temperature.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TEMPERATURE CONVERTER</h1>
+      <div class="converter">
+        <input
+          type="number"
+          id="inputTemperature"
+          placeholder="Enter Temperature"
+        />
+
+        <select name="" id="inputUnit">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <button onclick="convertTemperature()">Convert</button>
+      </div>
+      <div class="result">
+        <h2 id="resultText"></h2>
+      </div>
+      <script src="temperature.js"></script>
+    </div>
+    <footer>
+      <p>
+        Contact:
+        <a href="mailto:laxman.pandiboina@gamil.com"
+          >laxman.pandiboina@gmail.com</a
+        >
+        |
+        <a href="https://www.linkedin.com/in/laxmanpandiboina" target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://www.instagram.com/komal_balaboina" target="_blank"
+          >Instagram</a
+        >
+      </p>
+      <p>Powered by Your KrishNaa and L&NCompany</p>
+    </footer>
+  </body>
+</html>
